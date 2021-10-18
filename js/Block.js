@@ -18,7 +18,7 @@ class Block{
         var pos= this.body.position;
         imageMode(CENTER);
 
-        if(this.body.speed <4){
+        if(this.body.speed <4.5){
           image(this.image,pos.x,pos.y,this.width, this.height);
         }
         else{
